@@ -69,14 +69,14 @@ while (monto != "SALIR") {
         let prestamo_desc = soy_socio(prestamo_total, socio_usuario);
 
         console.log("Datos del prestamo");
-        console.log("Nombre del Cliente: ", nombre);
-        console.log("Apellido del Cliente: ", apellido);
-        console.log("DNI del Cliente: ", DNI);
-        console.log("Usted pidio: ", monto);
+        console.log("Su Nombre: ", nombre);
+        console.log("Su Apellido : ", apellido);
+        console.log("Su DNI: ", DNI);
+        console.log("Usted Pidío: ", monto);
         console.log("Ustes es socio: ", socio_usuario);
         console.log("Cuotas: ", cuotas);
-        console.log("Total: ", prestamo_total);
         console.log("Descuento por socio: ", prestamo_desc);
+        console.log("Total: ", prestamo_total);
         console.log("Monto final: ", prestamo_total - prestamo_desc);
     }
 
